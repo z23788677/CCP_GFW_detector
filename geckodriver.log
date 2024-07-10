@@ -1,0 +1,54 @@
+1720650960531	geckodriver	INFO	Listening on 127.0.0.1:55320
+1720650963562	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-no-remote" "-profile" "C:\\Users\\wu1c\\AppData\\Local\\Temp\\rust_mozprofilekwlVNv"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1720650963759	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1720650963867	Marionette	INFO	Listening on port 55330
+Read port: 55330
+1720650963996	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+1720650966163	Marionette	INFO	Stopped listening on port 55330
+Dynamically enable window occlusion 1
+1720654210386	geckodriver	INFO	Listening on 127.0.0.1:56075
+1720654213433	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-no-remote" "-profile" "C:\\Users\\wu1c\\AppData\\Local\\Temp\\rust_mozprofileJKU0LO"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1720654213608	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1720654213705	Marionette	INFO	Listening on port 56085
+Read port: 56085
+1720654213789	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.setn.com/ line 605 > injectedScript, line 2: TypeError: google_tag_manager.rm[30418277](...) is undefined
+1720654219478	Marionette	INFO	Stopped listening on port 56085
+JavaScript warning: https://pagead2.googlesyndication.com/bg/W164n0HfQnVQXQi_t_cLyq3bWY1hgeLTip_F24hW42Y.js line 2 > eval line 1980 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/9ed4a7e1/www-embed-player.vflset/www-embed-player.js, line 1053: Script terminated by timeout at:
+c@https://www.youtube.com/s/player/9ed4a7e1/www-embed-player.vflset/www-embed-player.js:1053:18
+e@https://www.youtube.com/s/player/9ed4a7e1/www-embed-player.vflset/www-embed-player.js:1064:15
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/W164n0HfQnVQXQi_t_cLyq3bWY1hgeLTip_F24hW42Y.js line 2 > eval line 1980 > eval line 1 > eval line 1 > eval, line 1: Script terminated by timeout at:
+h@https://pagead2.googlesyndication.com/bg/W164n0HfQnVQXQi_t_cLyq3bWY1hgeLTip_F24hW42Y.js line 2 > eval line 1980 > eval line 1 > eval line 1 > eval:1:24
+@https://pagead2.googlesyndication.com/bg/W164n0HfQnVQXQi_t_cLyq3bWY1hgeLTip_F24hW42Y.js line 2 > eval line 1980 > eval line 1 > eval line 1 > eval:1:162
+iC@https://pagead2.googlesyndication.com/bg/W164n0HfQnVQXQi_t_cLyq3bWY1hgeLTip_F24hW42Y.js line 2 > eval line 1980 > eval line 1 > eval line 1 > eval:1:209
+t4@https://pagead2.googlesyndication.com/bg/W164n0HfQnVQXQi_t_cLyq3bWY1hgeLTip_F24hW42Y.js line 2 > eval line 1980 > eval line 1 > eval line 1 > eval:1:113
+X.A</<@https://pagead2.googlesyndication.com/bg/W164n0HfQnVQXQi_t_cLyq3bWY1hgeLTip_F24hW42Y.js line 2 > eval:1980:50323
+Qy@https://pagead2.googlesyndication.com/bg/W164n0HfQnVQXQi_t_cLyq3bWY1hgeLTip_F24hW42Y.js line 2 > eval:1980:32805
+Xm@https://pagead2.googlesyndication.com/bg/W164n0HfQnVQXQi_t_cLyq3bWY1hgeLTip_F24hW42Y.js line 2 > eval:1980:19099
+C@https://pagead2.googlesyndication.com/bg/W164n0HfQnVQXQi_t_cLyq3bWY1hgeLTip_F24hW42Y.js line 2 > eval:1980:10785
+Xm/<@https://pagead2.googlesyndication.com/bg/W164n0HfQnVQXQi_t_cLyq3bWY1hgeLTip_F24hW42Y.js line 2 > eval:1980:19050
+hp</<@https://pagead2.googlesyndication.com/bg/W164n0HfQnVQXQi_t_cLyq3bWY1hgeLTip_F24hW42Y.js line 2 > eval:1980:47955
+
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.google.com/js/th/obds7IdaQltrj87jonrSfRLQUvzJvCScR1OQz8UbDzI.js line 2 > eval line 1820 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/modules/PictureInPicture.sys.mjs, line 558: TypeError: browser is null

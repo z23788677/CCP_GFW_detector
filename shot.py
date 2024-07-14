@@ -1,3 +1,4 @@
+import os
 from selenium import webdriver
 from webdriver_manager.firefox import GeckoDriverManager
 
@@ -15,7 +16,7 @@ def screenshooter(URL):
 
     driver.get(URL)
 
-    driver.implicitly_wait(15)
+    driver.implicitly_wait(10)
     driver.execute_script("window.scrollTo(0, 0);")
 
     page_width = driver.execute_script("return document.body.scrollWidth")
@@ -26,9 +27,7 @@ def screenshooter(URL):
     driver.save_screenshot('screenshot.png')
 
     driver.quit()
-
-
-if __name__ == "__main__":
-    #for testing
-    screenshooter("http://www.google.com")
-    print("It has been done")
+    try:
+        os.remove("geckodriver.log")
+    except:
+        pass

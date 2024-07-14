@@ -4,59 +4,38 @@ import return_words_list as rwl
 import html_donwloader as hd
 import shot
 import requests
+import pytesseract
+from PIL import Image,ImageTk
+import time
 
 #Variable
 main_win = Tk()
+up_social_credit = ImageTk.PhotoImage(file="Picture/up_social_credit.jpg")
+down_social_credit = ImageTk.PhotoImage(file="Picture/down_social_credit.jpg")
 
 WINDOWS_WIDTH = 1200
 WINDOWS_HEIGHT = 450
-WINDOWS_TITLE = "Please Enter URL: "
+WINDOWS_TITLE = "Please Enter URL: (Process may take a min please wait)"
 LANGUAGE_TEXT = "Language:"
 SUBMIT_BUTTON = "SUBMIT"
 CANT_ACCESS = "UNACCESSIBLE"
-COMMIE_FLAG_PATH = ImageTk.PhotoImage(file = "Picture/commie_flag.png")
-SUN_CAN_SETS_EMPIRE_FLAG_PATH = ImageTk.PhotoImage(file = "Picture/sun_can_sets_empire_flag.png")
-NEW_LGBT_CHINA_FLAG_PATH = ImageTk.PhotoImage(file = "Picture/new_lgbt_china_flag.png")
+list_words = "Words In the website"
+count = 0
 
 SCORE = 0
 RED_SCORE = 100
 ORANGE_SCORE = 20
 YELLOW_SCORE = 10
 
-#command action
-    #Language
-def chinese_sim():
-    WINDOWS_TITLE = "请输入连结: "
-    LANGUAGE_TEXT = "语言:"
-    SUBMIT_BUTTON = "提交"
-    CANT_ACCESS = "无法访问"
-    windows_title.config(text = WINDOWS_TITLE)
-    language_label.config(text = LANGUAGE_TEXT)
-    state.config(text = CANT_ACCESS)
-    submit_button.config(text = SUBMIT_BUTTON)
-    language_label.place(x = 750, y = 390)
-def english():
-    WINDOWS_TITLE = "Please Enter URL: "
-    LANGUAGE_TEXT = "Language:"
-    SUBMIT_BUTTON = "SUBMIT"
-    CANT_ACCESS = "UNACCESSIBLE"
-    windows_title.config(text = WINDOWS_TITLE)
-    language_label.config(text = LANGUAGE_TEXT)
-    state.config(text = CANT_ACCESS)
-    submit_button.config(text = SUBMIT_BUTTON)
-    language_label.place(x = 680, y = 390)
-def chinese_tra():
-    WINDOWS_TITLE = "請輸入連結: "
-    LANGUAGE_TEXT = "語言:"
-    SUBMIT_BUTTON = "提交"
-    CANT_ACCESS = "無法訪問"
-    windows_title.config(text = WINDOWS_TITLE)
-    language_label.config(text = LANGUAGE_TEXT)
-    submit_button.config(text = SUBMIT_BUTTON)
-    state.config(text = CANT_ACCESS)
-    language_label.place(x = 750, y = 390)
+
 def take_url():
+    global list_words
     global SCORE
+    global count
+    state.config(text = "")
+    list_all_words.config(text = "")
+    social_credit_socre.config(text = "")
+    Place_image.config(image =None)
     SCORE = 0
     RECEIVED_URL = URL_enter.get()
     URL_enter.delete(0, "end")
@@ -71,23 +50,50 @@ def take_url():
         state.pack()
         return
     else:
+        word_list = []
+        list_words = ""
         HTML_TEXT_CHINESE_WORD = hd.take_html(RECEIVED_URL)
+        shot.screenshooter(RECEIVED_URL)
+        img = Image.open("screenshot.png")
+
+        text1 = pytesseract.image_to_string(img, "chi_tra")
+        text2 = pytesseract.image_to_string(img, "chi_sim")
+        
+        if HTML_TEXT_CHINESE_WORD == None:
+            text = text1 + text2
+        else:
+            text = text1 + text2 + HTML_TEXT_CHINESE_WORD
+
+        text = text.replace(" ","")
+
+        for order in range(0, 255):
+            text = text.replace(chr(order), "")
+
         for word in rwl.red_list:
-            if word in HTML_TEXT_CHINESE_WORD:
+            if word in text:
+                word_list.append(word)
                 SCORE += RED_SCORE
         for word in rwl.orange_list:
-            if word in HTML_TEXT_CHINESE_WORD:
+            if word in text:
+                word_list.append(word)
                 SCORE += ORANGE_SCORE
         for word in rwl.yellow_list:
-            if word in HTML_TEXT_CHINESE_WORD:
+            if word in text:
+                word_list.append(word)
                 SCORE += YELLOW_SCORE
-        
-        shot.screenshooter(RECEIVED_URL)
-        website_image = "screenshot.png"
+        for word in word_list:
+            count += 1
+            list_words += word + ","
+            if count % 10 == 0:
+                list_words += "\n"
+        if SCORE <= 0:
+            Place_image.config(image = up_social_credit)
+        else:
+            Place_image.config(image = down_social_credit)
 
-
-
-        print("該網站分數為:",SCORE)
+        state.config(text = "IS DONE")
+        list_all_words.config(text = list_words)
+        social_credit_socre.config(text = ("Totle Score: ", str(SCORE)))
 
 #access half of user screen info
 left = (main_win.winfo_screenwidth()//2)
@@ -101,21 +107,9 @@ main_win.iconbitmap("Picture/ccp_icon.ico")
 main_win.config(background = "#646464")
 
 windows_title = Label(main_win, text=WINDOWS_TITLE,bg="#646464",
-                      fg = "white",font=("微軟正黑體",30))
+                      fg = "white",font=("微軟正黑體",25))
 windows_title.pack()
 
-commie_flag_button = Button(image=COMMIE_FLAG_PATH, command=chinese_sim)
-commie_flag_button.place(x = 1070, y = 390)
-
-sun_can_sets_empire_flag_button = Button(image = SUN_CAN_SETS_EMPIRE_FLAG_PATH, command = english)
-sun_can_sets_empire_flag_button.place(x = 950, y = 390)
-
-new_lgbt_china_flag_button = Button(image = NEW_LGBT_CHINA_FLAG_PATH, command=chinese_tra)
-new_lgbt_china_flag_button.place(x =830, y = 390)
-
-language_label = Label(text=LANGUAGE_TEXT,bg="#646464",
-                      fg = "white",font=("微軟正黑體",20))
-language_label.place(x = 680, y = 390)
 
 URL_enter = Entry(main_win, width=45,font=("微軟正黑體",25))
 URL_enter.pack()
@@ -126,5 +120,19 @@ submit_button.pack()
 
 state = Label(text = "",bg="#646464",
                       fg = "red",font=("微軟正黑體",25))
+state.pack()
+
+list_all_words = Label(bg="#646464",
+                      fg = "white",font=("微軟正黑體",12))
+list_all_words.pack()
+
+
+social_credit_socre = Label(text =(""),bg = "#646464",
+                      fg = "red",font=("微軟正黑體",30))
+social_credit_socre.pack()
+
+Place_image = Label(bg = "#646464")
+Place_image.place(x= 970, y = 320)
+
 
 main_win.mainloop()

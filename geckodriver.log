@@ -1,48 +1,637 @@
-1720650960531	geckodriver	INFO	Listening on 127.0.0.1:55320
-1720650963562	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-no-remote" "-profile" "C:\\Users\\wu1c\\AppData\\Local\\Temp\\rust_mozprofilekwlVNv"
+1720973948612	geckodriver	INFO	Listening on 127.0.0.1:57996
+1720973951637	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-no-remote" "-profile" "C:\\Users\\wu1c\\AppData\\Local\\Temp\\rust_mozprofilegVRvMa"
 *** You are running in headless mode.
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1720650963759	Marionette	INFO	Marionette enabled
+1720973951823	Marionette	INFO	Marionette enabled
 Dynamically enable window occlusion 0
-1720650963867	Marionette	INFO	Listening on port 55330
-Read port: 55330
-1720650963996	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.error: ({})
-1720650966163	Marionette	INFO	Stopped listening on port 55330
-Dynamically enable window occlusion 1
-1720654210386	geckodriver	INFO	Listening on 127.0.0.1:56075
-1720654213433	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-no-remote" "-profile" "C:\\Users\\wu1c\\AppData\\Local\\Temp\\rust_mozprofileJKU0LO"
-*** You are running in headless mode.
-console.warn: services.settings: Ignoring preference override of remote settings server
-console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1720654213608	Marionette	INFO	Marionette enabled
-Dynamically enable window occlusion 0
-1720654213705	Marionette	INFO	Listening on port 56085
-Read port: 56085
-1720654213789	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1720973951923	Marionette	INFO	Listening on port 58006
+Read port: 58006
+1720973952009	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
 console.error: ({})
 JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
-JavaScript error: https://www.setn.com/ line 605 > injectedScript, line 2: TypeError: google_tag_manager.rm[30418277](...) is undefined
-1720654219478	Marionette	INFO	Stopped listening on port 56085
-JavaScript warning: https://pagead2.googlesyndication.com/bg/W164n0HfQnVQXQi_t_cLyq3bWY1hgeLTip_F24hW42Y.js line 2 > eval line 1980 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
-JavaScript warning: https://www.youtube.com/s/player/9ed4a7e1/www-embed-player.vflset/www-embed-player.js, line 1053: Script terminated by timeout at:
-c@https://www.youtube.com/s/player/9ed4a7e1/www-embed-player.vflset/www-embed-player.js:1053:18
-e@https://www.youtube.com/s/player/9ed4a7e1/www-embed-player.vflset/www-embed-player.js:1064:15
+JavaScript error: https://www.setn.com/ line 606 > injectedScript, line 1: TypeError: google_tag_manager.rm[30418277](...) is undefined
+1720973955667	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1720973955682	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 6004 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 5469 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/rhvPcg7UJyL1sAnNU7zDxBIVtgC_UiLHJg5Qt6Nsf8o.js line 2 > eval line 2152 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1720973982022	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1720974055326	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 707 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js, line 6582: Script terminated by timeout at:
+G3a@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:6582:95
+U4a@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:6752:20
+g.k.sendAbandonmentPing@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:12266:113
+g.k.sendAbandonmentPing@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:10304:62
+WR/a.state.B[b]@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:4516:53
+fy/<@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1872:106
+qy@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1908:46
+@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1916:137
+ul/<@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:890:63
 
-JavaScript warning: https://pagead2.googlesyndication.com/bg/W164n0HfQnVQXQi_t_cLyq3bWY1hgeLTip_F24hW42Y.js line 2 > eval line 1980 > eval line 1 > eval line 1 > eval, line 1: Script terminated by timeout at:
-h@https://pagead2.googlesyndication.com/bg/W164n0HfQnVQXQi_t_cLyq3bWY1hgeLTip_F24hW42Y.js line 2 > eval line 1980 > eval line 1 > eval line 1 > eval:1:24
-@https://pagead2.googlesyndication.com/bg/W164n0HfQnVQXQi_t_cLyq3bWY1hgeLTip_F24hW42Y.js line 2 > eval line 1980 > eval line 1 > eval line 1 > eval:1:162
-iC@https://pagead2.googlesyndication.com/bg/W164n0HfQnVQXQi_t_cLyq3bWY1hgeLTip_F24hW42Y.js line 2 > eval line 1980 > eval line 1 > eval line 1 > eval:1:209
-t4@https://pagead2.googlesyndication.com/bg/W164n0HfQnVQXQi_t_cLyq3bWY1hgeLTip_F24hW42Y.js line 2 > eval line 1980 > eval line 1 > eval line 1 > eval:1:113
-X.A</<@https://pagead2.googlesyndication.com/bg/W164n0HfQnVQXQi_t_cLyq3bWY1hgeLTip_F24hW42Y.js line 2 > eval:1980:50323
-Qy@https://pagead2.googlesyndication.com/bg/W164n0HfQnVQXQi_t_cLyq3bWY1hgeLTip_F24hW42Y.js line 2 > eval:1980:32805
-Xm@https://pagead2.googlesyndication.com/bg/W164n0HfQnVQXQi_t_cLyq3bWY1hgeLTip_F24hW42Y.js line 2 > eval:1980:19099
-C@https://pagead2.googlesyndication.com/bg/W164n0HfQnVQXQi_t_cLyq3bWY1hgeLTip_F24hW42Y.js line 2 > eval:1980:10785
-Xm/<@https://pagead2.googlesyndication.com/bg/W164n0HfQnVQXQi_t_cLyq3bWY1hgeLTip_F24hW42Y.js line 2 > eval:1980:19050
-hp</<@https://pagead2.googlesyndication.com/bg/W164n0HfQnVQXQi_t_cLyq3bWY1hgeLTip_F24hW42Y.js line 2 > eval:1980:47955
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 74: Script terminated by timeout at:
+wc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:74:601
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:202
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1228
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1228
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1228
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+Nn/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:239:2340
+Nn/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:239:2306
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:62
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1228
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1228
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1228
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1228
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+ad/</d<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1622
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1193
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1228
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+ad/</d<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1622
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1193
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1228
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+ad/</d<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1622
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1193
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1228
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1228
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1228
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1228
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1228
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1228
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1228
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1228
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1228
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1228
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1228
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1228
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1228
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1228
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1228
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1228
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+N.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1228
+xc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:68
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:348
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 3830 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 6845 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 4302 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/rhvPcg7UJyL1720974262945	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-no-remote" "-profile" "C:\\Users\\wu1c\\AppData\\Local\\Temp\\ruJavaScript warning: https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js, line 51: Script terminated by timeout at:
+B@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:51:46
+fy/<@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1872:57
+qy@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1908:46
+@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1916:137
+ul/<@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:890:63
+
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 676 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 3559 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 47 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Missing chrome or resource URL: chrome://browser/skin/aboutSessionRestore-window-icon.png
+Missing chrome or resource URL: chrome://browser/skin/abyss/img/waterfox-abyss-preview.svg
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 3979 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/rhvPcg7UJyL1sAnNU7zDxBIVtgC_UiLHJg5Qt6Nsf8o.js line 2 > eval line 1592 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js, line 1872: Script terminated by timeout at:
+fy/<@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1872:46
+qy@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1908:46
+@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1916:137
+ul/<@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:890:63
+
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 2035 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 4251 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/rhvPcg7UJyL1sAnNU7zDxBIVtgC_UiLHJg5Qt6Nsf8o.js line 2 > eval line 1945 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js, line 10126: Script terminated by timeout at:
+g.k.publish@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:10126:21
+g.k.tG@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:12597:27
+g.k.publish@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:8220:288
+g.iy.prototype.publish@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:8455:74
+g.k.sendAbandonmentPing@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:12266:74
+g.k.sendAbandonmentPing@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:10304:62
+WR/a.state.B[b]@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:4516:53
+fy/<@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1872:106
+qy@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1908:46
+@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1916:137
+ul/<@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:890:63
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 4913 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/rhvPcg7UJyL1sAnNU7zDxBIVtgC_UiLHJg5Qt6Nsf8o.js line 2 > eval line 4381 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js, line 910: Script terminated by timeout at:
+U@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:910:226
+@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1916:52
+ul/<@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:890:63
+
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 254: Script terminated by timeout at:
+No.prototype.takeRecords@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:254:69
+Vg@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:260:326
+$o/</p<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:262:146
+Ac/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:67
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:595
+nr/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:295:1143
+O/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:87:359
+N/this.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:870
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+Q/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:94:1234
+N/this.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:870
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+Ud/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:94:1581
+N/this.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:870
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+sh/c/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:135:320
+Wa@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:47:339
+Ta.prototype.flush@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:47:127
+Va@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:46:490
+sh/c/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:135:292
+Ac/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:67
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+ng/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:118:516
+Sa.prototype.Pb/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:46:322
+ng/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:118:525
+Ac/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:67
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+ng/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:118:516
+Sa.prototype.Pb/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:46:322
+ng/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:118:525
+Ac/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:67
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+f@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:391
+
+JavaScript warning: https://ads.as.criteo.com/delivery/r/afr.php?z=ZpP_OgALaY8F6Z60AA2Tj7DcvQgCLMZgAgFaTQ&u=%7CyVo3psWr%2FTyA6mh1vUrV98mQ%2BZgdqfghuTHDUCkT%2FPM%3D%7C&c1=wLMhjbQtwRerfuYQvtYvucUfx71c_57oZ7-4NEldJVPEcquQgoC5a7VCjwOOstd79x24phTIngNtDgIDiTkvPB3eukM5mcfwqri5lV4USdQnponW85vF-Rsv1EhmzraLQlT_4R3_BFCS50RqhKzVyVZmnsaQHM4JqURu7VNziqYJmOYfqeaNBVmMy2aBQ-l6QrV7CDz39idrqF-YiCzLUQTVwNKdVMrEPeqtB3Drj7mUGiTSg4YyB26Qt6tylIE6EyoiYcFtszZtFP6M1SkAnmRCOst3CYlYzm9qtSHp0RqXqv6x_t8pchYx7sKgdiRApoa5zmCm2SEzmZ7AiYc68clu25W1CnWhewqlW_MEmXTHA5fTqM5Hk2z2aP1pwm5XdGRgyYnTocua_B-BTfpPzJM-sfFYEYMn2aaKzbtmOM01CmwusmU850CAGrDvMV0_Oho0r_Hsu1SbdQQESqS9Zs0b8DBX4rwUyIPrXuBhHjCYkSWBbrRuMVMKtArdaQPaXRDPEUemaAful_04FoejveMYLxtcXSV9ea6JiyARC0DmAsXYFljZBBgtNPUdoOFpayQT88EXiPL-mqq4Kk8WxXSQjm9cFOMz2SqLJgWoeTRyc9wpLftwQGFQ0jMYXg-OaaTmt_z1oF6OsFtYgFhZ3J73qWVG1avq&ct0=https://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCLRTiOv-TZo_TLbS9pt8Pj6e2gAW91O6wXPCvxL59wI23ARABIABgnwGCARdjYS1wdWItMjUyMzU2OTU4OTk4OTU0NcgBCeACAKgDAcgDAqoEoAJP0JZmChWP3T1-Ilk_XEEJi06XKQeqRBHueyS1xlWLS79Pr_iM8oTRKPNooi0k3uu3LRDL2FK4CwKuuvqRnoB8B6nuhnspriSaAwjQZvy6iptc0AZvtGcwC_PAwkD2u0eDdg0nuP_8S5uu_VbY68MeWZ-yCyGnhV88Kp8f1p66RyBhnXcL9tio7vzw9iJuE88OwZSRV1GsizFiurFM9lYJPMnPMx9L_wSsI5DlBwawIVDekXTPdPqEfbaUkflEcFy7iYvEkL0UDgj4DZe8PqDAf65F9ibrdCVMXeu4u_EmheKBkwlGrwP6s79_39WEroYFvSPRrCr5bADL1q27AoWT0y-a6Z38y9lkVnui-VseTT2u6ICX2YadIBwwZVKCVnPgBAGABuqGnLGh6PeO4QGgBiGoB6a-G6gHltgbqAeqm7ECqAeDrbECqAf_nrECqAffn7ECqAetvrEC2AcA0ggiCIBhEAEyAooCOgmAQIDAgICAoChIvf3BOlj1t_aJ_KaHA_oLAggBgAwB4g0TCLzu9on8pocDFbSe6QUdj5MNUNAVAYAXAQ%26num%3D1%26sig%3DAOD64_1ZLDCfZMYk8x1QyyVwABh82QMZUQ%26client%3Dca-pub-2523569589989545%26adurl%3D, line 43: Script terminated by timeout at:
+s@https://ads.as.criteo.com/delivery/r/afr.php?z=ZpP_OgALaY8F6Z60AA2Tj7DcvQgCLMZgAgFaTQ&u=%7CyVo3psWr%2FTyA6mh1vUrV98mQ%2BZgdqfghuTHDUCkT%2FPM%3D%7C&c1=wLMhjbQtwRerfuYQvtYvucUfx71c_57oZ7-4NEldJVPEcquQgoC5a7VCjwOOstd79x24phTIngNtDgIDiTkvPB3eukM5mcfwqri5lV4USdQnponW85vF-Rsv1EhmzraLQlT_4R3_BFCS50RqhKzVyVZmnsaQHM4JqURu7VNziqYJmOYfqeaNBVmMy2aBQ-l6QrV7CDz39idrqF-YiCzLUQTVwNKdVMrEPeqtB3Drj7mUGiTSg4YyB26Qt6tylIE6EyoiYcFtszZtFP6M1SkAnmRCOst3CYlYzm9qtSHp0RqXqv6x_t8pchYx7sKgdiRApoa5zmCm2SEzmZ7AiYc68clu25W1CnWhewqlW_MEmXTHA5fTqM5Hk2z2aP1pwm5XdGRgyYnTocua_B-BTfpPzJM-sfFYEYMn2aaKzbtmOM01CmwusmU850CAGrDvMV0_Oho0r_Hsu1SbdQQESqS9Zs0b8DBX4rwUyIPrXuBhHjCYkSWBbrRuMVMKtArdaQPaXRDPEUemaAful_04FoejveMYLxtcXSV9ea6JiyARC0DmAsXYFljZBBgtNPUdoOFpayQT88EXiPL-mqq4Kk8WxXSQjm9cFOMz2SqLJgWoeTRyc9wpLftwQGFQ0jMYXg-OaaTmt_z1oF6OsFtYgFhZ3J73qWVG1avq&ct0=https://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCLRTiOv-TZo_TLbS9pt8Pj6e2gAW91O6wXPCvxL59wI23ARABIABgnwGCARdjYS1wdWItMjUyMzU2OTU4OTk4OTU0NcgBCeACAKgDAcgDAqoEoAJP0JZmChWP3T1-Ilk_XEEJi06XKQeqRBHueyS1xlWLS79Pr_iM8oTRKPNooi0k3uu3LRDL2FK4CwKuuvqRnoB8B6nuhnspriSaAwjQZvy6iptc0AZvtGcwC_PAwkD2u0eDdg0nuP_8S5uu_VbY68MeWZ-yCyGnhV88Kp8f1p66RyBhnXcL9tio7vzw9iJuE88OwZSRV1GsizFiurFM9lYJPMnPMx9L_wSsI5DlBwawIVDekXTPdPqEfbaUkflEcFy7iYvEkL0UDgj4DZe8PqDAf65F9ibrdCVMXeu4u_EmheKBkwlGrwP6s79_39WEroYFvSPRrCr5bADL1q27AoWT0y-a6Z38y9lkVnui-VseTT2u6ICX2YadIBwwZVKCVnPgBAGABuqGnLGh6PeO4QGgBiGoB6a-G6gHltgbqAeqm7ECqAeDrbECqAf_nrECqAffn7ECqAetvrEC2AcA0ggiCIBhEAEyAooCOgmAQIDAgICAoChIvf3BOlj1t_aJ_KaHA_oLAggBgAwB4g0TCLzu9on8pocDFbSe6QUdj5MNUNAVAYAXAQ%26num%3D1%26sig%3DAOD64_1ZLDCfZMYk8x1QyyVwABh82QMZUQ%26client%3Dca-pub-2523569589989545%26adurl%3D:43:9221
+r.framerateObserver<@https://ads.as.criteo.com/delivery/r/afr.php?z=ZpP_OgALaY8F6Z60AA2Tj7DcvQgCLMZgAgFaTQ&u=%7CyVo3psWr%2FTyA6mh1vUrV98mQ%2BZgdqfghuTHDUCkT%2FPM%3D%7C&c1=wLMhjbQtwRerfuYQvtYvucUfx71c_57oZ7-4NEldJVPEcquQgoC5a7VCjwOOstd79x24phTIngNtDgIDiTkvPB3eukM5mcfwqri5lV4USdQnponW85vF-Rsv1EhmzraLQlT_4R3_BFCS50RqhKzVyVZmnsaQHM4JqURu7VNziqYJmOYfqeaNBVmMy2aBQ-l6QrV7CDz39idrqF-YiCzLUQTVwNKdVMrEPeqtB3Drj7mUGiTSg4YyB26Qt6tylIE6EyoiYcFtszZtFP6M1SkAnmRCOst3CYlYzm9qtSHp0RqXqv6x_t8pchYx7sKgdiRApoa5zmCm2SEzmZ7AiYc68clu25W1CnWhewqlW_MEmXTHA5fTqM5Hk2z2aP1pwm5XdGRgyYnTocua_B-BTfpPzJM-sfFYEYMn2aaKzbtmOM01CmwusmU850CAGrDvMV0_Oho0r_Hsu1SbdQQESqS9Zs0b8DBX4rwUyIPrXuBhHjCYkSWBbrRuMVMKtArdaQPaXRDPEUemaAful_04FoejveMYLxtcXSV9ea6JiyARC0DmAsXYFljZBBgtNPUdoOFpayQT88EXiPL-mqq4Kk8WxXSQjm9cFOMz2SqLJgWoeTRyc9wpLftwQGFQ0jMYXg-OaaTmt_z1oF6OsFtYgFhZ3J73qWVG1avq&ct0=https://adclick.g.doubleclick.net/aclk%3Fsa%3DL%26ai%3DCLRTiOv-TZo_TLbS9pt8Pj6e2gAW91O6wXPCvxL59wI23ARABIABgnwGCARdjYS1wdWItMjUyMzU2OTU4OTk4OTU0NcgBCeACAKgDAcgDAqoEoAJP0JZmChWP3T1-Ilk_XEEJi06XKQeqRBHueyS1xlWLS79Pr_iM8oTRKPNooi0k3uu3LRDL2FK4CwKuuvqRnoB8B6nuhnspriSaAwjQZvy6iptc0AZvtGcwC_PAwkD2u0eDdg0nuP_8S5uu_VbY68MeWZ-yCyGnhV88Kp8f1p66RyBhnXcL9tio7vzw9iJuE88OwZSRV1GsizFiurFM9lYJPMnPMx9L_wSsI5DlBwawIVDekXTPdPqEfbaUkflEcFy7iYvEkL0UDgj4DZe8PqDAf65F9ibrdCVMXeu4u_EmheKBkwlGrwP6s79_39WEroYFvSPRrCr5bADL1q27AoWT0y-a6Z38y9lkVnui-VseTT2u6ICX2YadIBwwZVKCVnPgBAGABuqGnLGh6PeO4QGgBiGoB6a-G6gHltgbqAeqm7ECqAeDrbECqAf_nrECqAffn7ECqAetvrEC2AcA0ggiCIBhEAEyAooCOgmAQIDAgICAoChIvf3BOlj1t_aJ_KaHA_oLAggBgAwB4g0TCLzu9on8pocDFbSe6QUdj5MNUNAVAYAXAQ%26num%3D1%26sig%3DAOD64_1ZLDCfZMYk8x1QyyVwABh82QMZUQ%26client%3Dca-pub-2523569589989545%26adurl%3D:43:9454
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 6627 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 1403 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 4978 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/rhvPcg7UJyL1sAnNU7zDxBIVtgC_UiLHJg5Qt6Nsf8o.js line 2 > eval line 639 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js, line 890: Script terminated by timeout at:
+ul/<@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:890:47
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 6707 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/rhvPcg7UJyL1sAnNU7zDxBIVtgC_UiLHJg5Qt6Nsf8o.js line 2 > eval line 5264 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js, line 910: Script terminated by timeout at:
+U@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:910:226
+@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1916:52
+ul/<@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:890:63
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 5803 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/rhvPcg7UJyL1sAnNU7zDxBIVtgC_UiLHJg5Qt6Nsf8o.js line 2 > eval line 6749 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js, line 9229: Script terminated by timeout at:
+g.k.Og@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:9229:16
+c1a@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:6320:42
+g.k.lF@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:12333:65
+QZ@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:6486:83
+g.k.reportStats@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:12121:313
+G3a@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:6582:240
+U4a@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:6752:20
+g.k.sendAbandonmentPing@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:12266:113
+g.k.sendAbandonmentPing@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:10304:62
+WR/a.state.B[b]@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:4516:53
+fy/<@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1872:106
+qy@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1908:46
+@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1916:137
+ul/<@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:890:63
+
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 94: Script terminated by timeout at:
+Q/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:94:1203
+N/this.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:870
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+Ud/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:94:1581
+N/this.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:870
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+sh/c/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:135:320
+Wa@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:47:339
+Ta.prototype.flush@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:47:127
+Va@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:46:490
+sh/c/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:135:292
+Ac/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:67
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+ng/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:118:516
+Sa.prototype.Pb/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:46:322
+ng/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:118:525
+Ac/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:67
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+ng/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:118:516
+Sa.prototype.Pb/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:46:322
+ng/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:118:525
+Ac/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:67
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+f@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:391
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 5338 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/rhvPcg7UJyL1sAnNU7zDxBIVtgC_UiLHJg5Qt6Nsf8o.js line 2 > eval line 5449 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js, line 910: Script terminated by timeout at:
+U@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:910:226
+@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1916:52
+ul/<@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:890:63
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 7075 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/rhvPcg7UJyL1sAnNU7zDxBIVtgC_UiLHJg5Qt6Nsf8o.js line 2 > eval line 193 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js, line 910: Script terminated by timeout at:
+U@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:910:226
+@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1916:52
+ul/<@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:890:63
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 1633 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 1314 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/rhvPcg7UJyL1sAnNU7zDxBIVtgC_UiLHJg5Qt6Nsf8o.js line 2 > eval line 6188 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js, line 10126: Script terminated by timeout at:
+g.k.publish@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:10126:21
+g.k.tG@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:12597:27
+g.k.publish@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:8220:288
+g.iy.prototype.publish@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:8455:74
+g.k.sendAbandonmentPing@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:12266:74
+g.k.sendAbandonmentPing@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:10304:62
+WR/a.state.B[b]@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:4516:53
+fy/<@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1872:106
+qy@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1908:46
+@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1916:137
+ul/<@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:890:63
+
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 76: Script terminated by timeout at:
+n.sg@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:76:342
+n.remove@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:76:470
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:75:174
+n.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:127
+zc.prototype.unsubscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:79:445
+n.zc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:295
+n.complete@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:47
+n.zc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:279
+n.complete@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:47
+n.zc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:279
+n.complete@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:47
+n.complete@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:83:93
+bd.prototype.connect/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:87:186
+N/this.zc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:1016
+n.complete@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:47
+sh/c/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:135:430
+Wa@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:47:339
+Ta.prototype.flush@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:47:127
+Va@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:46:490
+sh/c/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:135:292
+Ac/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:67
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+ng/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:118:516
+Sa.prototype.Pb/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:46:322
+ng/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:118:525
+Ac/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:67
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+ng/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:118:516
+Sa.prototype.Pb/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:46:322
+ng/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:118:525
+Ac/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:67
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+f@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:391
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 6203 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 531 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 3521 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 1419 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://s0.2mdn.net/sadbundle/18249657427873361528/index.html?e=69&leftOffset=0&topOffset=0&c=UpFeZLFJCK&t=1&renderingType=2&ev=01_252, line 528: TypeError: document.querySelector(...) is null
+JavaScript error: https://s0.2mdn.net/sadbundle/18249657427873361528/index.html?e=69&leftOffset=0&topOffset=0&c=UpFeZLFJCK&t=1&renderingType=2&ev=01_252, line 528: TypeError: document.querySelector(...) is null
+JavaScript error: https://s0.2mdn.net/sadbundle/18249657427873361528/index.html?e=69&leftOffset=0&topOffset=0&c=UpFeZLFJCK&t=1&renderingType=2&ev=01_252, line 528: TypeError: document.querySelector(...) is null
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 6052 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://s0.2mdn.net/sadbundle/18249657427873361528/index.html?e=69&leftOffset=0&topOffset=0&c=UpFeZLFJCK&t=1&renderingType=2&ev=01_252, line 528: TypeError: document.querySelector(...) is null
+JavaScript error: https://s0.2mdn.net/sadbundle/18249657427873361528/index.html?e=69&leftOffset=0&topOffset=0&c=UpFeZLFJCK&t=1&renderingType=2&ev=01_252, line 347: TypeError: document.querySelector(...) is null
+JavaScript warning: https://www.google.com/js/th/rhvPcg7UJyL1sAnNU7zDxBIVtgC_UiLHJg5Qt6Nsf8o.js line 2 > eval line 3812 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js, line 4125: Script terminated by timeout at:
+iJa@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:4125:511
+g.k.lF@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:12333:42
+QZ@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:6486:83
+g.k.reportStats@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:12121:313
+G3a@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:6582:240
+U4a@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:6752:20
+g.k.sendAbandonmentPing@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:12266:113
+g.k.sendAbandonmentPing@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:10304:62
+WR/a.state.B[b]@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:4516:53
+fy/<@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1872:106
+qy@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1908:46
+@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1916:137
+ul/<@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:890:63
+
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 85: Script terminated by timeout at:
+Pc@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:85:943
+Md@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:94:637
+Ag.prototype.ping@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:124:608
+nf.prototype.sendNow@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:101:245
+co/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:247:205
+co/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:247:178
+O/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:87:359
+N/this.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:870
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:595
+Tc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:85:1622
+Ac/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:67
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:595
+Tc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:85:1622
+Ac/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:67
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:595
+Tc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:85:1622
+Ac/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:67
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:595
+Tc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:85:1622
+Ac/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:67
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+ef/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:99:4063
+N/this.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:870
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+O/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:87:352
+N/this.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:86:870
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+Nn/</h/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:239:1969
+Wa@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:47:339
+Ta.prototype.flush@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:47:147
+Va@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:46:490
+sh/c/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:135:292
+Ac/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:67
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+ng/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:118:516
+Sa.prototype.Pb/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:46:322
+ng/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:118:525
+Ac/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:67
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+ng/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:118:516
+Sa.prototype.Pb/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:46:322
+ng/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:118:525
+Ac/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:67
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+n.qd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:78:174
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:77:497
+f@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:391
+
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 4887 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 7725 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/rhvPcg7UJyL1sAnNU7zDxBIVtgC_UiLHJg5Qt6Nsf8o.js line 2 > eval line 2508 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js, line 8220: Script terminated by timeout at:
+g.k.publish@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:8220:21
+g.iy.prototype.publish@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:8455:74
+g.k.sendAbandonmentPing@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:12266:74
+g.k.sendAbandonmentPing@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:10304:62
+WR/a.state.B[b]@https://www.youtube.com/s/player/8d9f6215/player_ias.vflset/zh_TW/base.js:4516:53
+fy/<@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1872:106
+qy@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1908:46
+@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1916:137
+ul/<@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:890:63
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 3088 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/rhvPcg7UJyL1sAnNU7zDxBIVtgC_UiLHJg5Qt6Nsf8o.js line 2 > eval line 770 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js, line 910: Script terminated by timeout at:
+U@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:910:226
+@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:1916:52
+ul/<@https://www.youtube.com/s/player/8d9f6215/www-embed-player.vflset/www-embed-player.js:890:63
+
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 1847 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 7295 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 2833 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.google.com/js/th/rhvPcg7UJyL1sAnNU7zDxBIVtgC_UiLHJg5Qt6Nsf8o.js line 2 > eval line 2371 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+ed. Please use RENDERER.
+1720977618286	Marionette	INFO	Stopped listening on port 61733
+Dynamically enable window occlusion 1
+1720977655287	geckodriver	INFO	Listening on 127.0.0.1:61840
+1720977658315	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-no-remote" "-profile" "C:\\Users\\wu1c\\AppData\\Local\\Temp\\rust_mozprofileInw7RC"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1720977658545	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1720977658649	Marionette	INFO	Listening on port 61852
+Read port: 61852
+1720977658746	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 3065 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1720977664348	Marionette	INFO	Stopped listening on port 61852
+JavaScript warning: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202407090101/pubads_impl.js, line 32: Script terminated by timeout at:
+_.xh@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202407090101/pubads_impl.js:32:34740
+vU.prototype.g/<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202407090101/pubads_impl.js:32:454681
+
+Dynamically enable window occlusion 1
+1720977780832	geckodriver	INFO	Listening on 127.0.0.1:61959
+1720977783845	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-no-remote" "-profile" "C:\\Users\\wu1c\\AppData\\Local\\Temp\\rust_mozprofileiLJIRL"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1720977784044	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1720977784141	Marionette	INFO	Listening on port 61972
+Read port: 61972
+1720977784238	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 5958 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1720977790575	Marionette	INFO	Stopped listening on port 61972
+JavaScript warning: https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202407100101/pubads_impl.js?cb=31085186, line 32: Script terminated by timeout at:
+_.xh@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202407100101/pubads_impl.js?cb=31085186:32:34746
+zU.prototype.g/<@https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202407100101/pubads_impl.js?cb=31085186:32:455106
+
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1720977830127	geckodriver	INFO	Listening on 127.0.0.1:62050
+1720977833137	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-no-remote" "-profile" "C:\\Users\\wu1c\\AppData\\Local\\Temp\\rust_mozprofileTGaiAs"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1720977833326	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1720977833422	Marionette	INFO	Listening on port 62061
+Read port: 62061
+1720977833515	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/OxtBnai3WUI3BIPAf7YR35vagqh8m0HHIjNtY8KoX-M.js line 2 > eval line 4320 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1720977840528	Marionette	INFO	Stopped listening on port 62061
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-64JWG501SB, line 339: Script terminated by timeout at:
+Nj@https://www.googletagmanager.com/gtag/js?id=G-64JWG501SB:339:805
+Ew.prototype.ne/c</<@https://www.googletagmanager.com/gtag/js?id=G-64JWG501SB:505:83
 
 Dynamically enable window occlusion 1
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
@@ -50,5 +639,131 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
 JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
-JavaScript warning: https://www.google.com/js/th/obds7IdaQltrj87jonrSfRLQUvzJvCScR1OQz8UbDzI.js line 2 > eval line 1820 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1720977945479	geckodriver	INFO	Listening on 127.0.0.1:62186
+1720977948509	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-no-remote" "-profile" "C:\\Users\\wu1c\\AppData\\Local\\Temp\\rust_mozprofilecdBSFR"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1720977948704	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1720977948799	Marionette	INFO	Listening on port 62198
+Read port: 62198
+1720977948889	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1720977955510	Marionette	INFO	Stopped listening on port 62198
+JavaScript warning: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Script terminated by timeout at:
+u3@https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js:9:133445
+510/u9/<@https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js:9:139049
+oS@https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js:9:88396
+ir@https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js:9:117318
+u9@https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js:9:134865
+i6@https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js:9:124457
+
+Dynamically enable window occlusion 1
+1720978122986	geckodriver	INFO	Listening on 127.0.0.1:62326
+1720978126013	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-no-remote" "-profile" "C:\\Users\\wu1c\\AppData\\Local\\Temp\\rust_mozprofileEQHA0G"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1720978126223	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1720978126327	Marionette	INFO	Listening on port 62336
+Read port: 62336
+1720978126462	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1720978132194	Marionette	INFO	Stopped listening on port 62336
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 1: Script terminated by timeout at:
+ca@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:1:509
+@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:2:3
+@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:330:376
+
+JavaScript error: https://www.epochtimes.com/taiwan, line 2: ReferenceError: osdlfm is not defined
+Dynamically enable window occlusion 1
+1720978229450	geckodriver	INFO	Listening on 127.0.0.1:62480
+1720978232462	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-no-remote" "-profile" "C:\\Users\\wu1c\\AppData\\Local\\Temp\\rust_mozprofile4vTs3G"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1720978232675	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1720978232787	Marionette	INFO	Listening on port 62490
+Read port: 62490
+1720978232890	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #425; visit https://reactjs.org/docs/error-decoder.html?invariant=425 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #418; visit https://reactjs.org/docs/error-decoder.html?invariant=418 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+JavaScript error: https://www.epochtimes.com/_next/static/chunks/1dd3208c-edd0aade63a4269d.js, line 9: Error: Minified React error #423; visit https://reactjs.org/docs/error-decoder.html?invariant=423 for the full message or use the non-minified dev environment for full errors and additional helpful warnings.
+1720978238679	Marionette	INFO	Stopped listening on port 62490
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1720978292366	geckodriver	INFO	Listening on 127.0.0.1:62581
+1720978295387	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-no-remote" "-profile" "C:\\Users\\wu1c\\AppData\\Local\\Temp\\rust_mozprofilevWyxoZ"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1720978295581	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1720978295680	Marionette	INFO	Listening on port 62591
+Read port: 62591
+1720978295766	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+1720978299681	Marionette	INFO	Stopped listening on port 62591
+Dynamically enable window occlusion 1
+1720978311105	geckodriver	INFO	Listening on 127.0.0.1:62664
+1720978314126	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-no-remote" "-profile" "C:\\Users\\wu1c\\AppData\\Local\\Temp\\rust_mozprofilehs2spm"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1720978314318	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1720978314415	Marionette	INFO	Listening on port 62674
+Read port: 62674
+1720978314504	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.error: ({})
+JavaScript warning: https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.setn.com/ line 606 > injectedScript, line 1: TypeError: google_tag_manager.rm[30418277](...) is undefined
+1720978317971	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1720978319431	Marionette	INFO	Stopped listening on port 62674
+JavaScript warning: https://ecs.tagtoo.co/js/fp.min.js, line 9: Script terminated by timeout at:
+fontPreferences/FingerprintJS<@https://ecs.tagtoo.co/js/fp.min.js:9:23162
+fontPreferences/FingerprintJS<@https://ecs.tagtoo.co/js/fp.min.js:9:22645
+D/FingerprintJS</<@https://ecs.tagtoo.co/js/fp.min.js:9:9596
+r/c/FingerprintJS/FingerprintJS<@https://ecs.tagtoo.co/js/fp.min.js:9:1495
+r/c/FingerprintJS@https://ecs.tagtoo.co/js/fp.min.js:9:1600
+i@https://ecs.tagtoo.co/js/fp.min.js:9:339
+
+Dynamically enable window occlusion 1
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.google.com/js/th/rhvPcg7UJyL1sAnNU7zDxBIVtgC_UiLHJg5Qt6Nsf8o.js line 2 > eval line 6288 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript error: resource://gre/modules/PictureInPicture.sys.mjs, line 558: TypeError: browser is null

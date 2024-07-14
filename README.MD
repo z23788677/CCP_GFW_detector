@@ -31,8 +31,7 @@ Some of the Python files have this, please ignore them as they are for testing d
 ` if __name__ == "__main__":
     something... `
 
-The Project not done yet. please wait
-- **images text classification**
-- **detecting process state display to gui**
-- **Chinese version of md file**
-- **list detected word to gui**
+Please Notice
+===
+You may have to Install Firefox Befoce running the program.
+Since the GUI using "微軟正黑體", if you don't have this font in your local machine, the program may not running properly.
